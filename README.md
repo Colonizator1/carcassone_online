@@ -8,10 +8,10 @@ Open script editor end paste url of your new sheet whith game in the first const
 
 
 # How to play
-Then click START button and give permissions if necessary.
-Activate a cell where you want to insert the card and press 'paste' button.
-If you want to turn img - use button whith arrow.
-Drag the soldier on the card.
+1. Then click START button and give permissions if necessary.
+2. Activate a cell where you want to insert the card and press 'paste' button.
+3. If you want to turn img - use button whith arrow.
+4. Drag the soldier on the card.
 
 Screen of game:
 ![Drag Racing](screen.jpg)
