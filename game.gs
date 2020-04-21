@@ -36,7 +36,7 @@ function insertPeoplesImage (playerCount) {
     let verticalOffset = [60,60,60,15,15,15,15];
     while (soldiersCount > 0) {
       if(soldiersCount == 3) {currentHorizontOffset = 0;}
-      board.insertImage('https://classicsoffroad.com/carcassonne/img/peoples/knight-'+color[playerCount - 1]+'.png', 1, drawnRaw, currentHorizontOffset, verticalOffset[soldiersCount - 1]);
+      board.insertImage('https://raw.githubusercontent.com/Colonizator1/carcassone_online/master/img/peoples/knight-'+color[playerCount - 1]+'.png', 1, drawnRaw, currentHorizontOffset, verticalOffset[soldiersCount - 1]);
       currentHorizontOffset = currentHorizontOffset + horizontOffset;
       soldiersCount--;
     }
@@ -66,7 +66,7 @@ function setCardInActiveCell() {
   let activeCell = SpreadsheetApp.getActiveSpreadsheet().getActiveRange();
   let activeRow = activeCell.getRow();
   let activeColumn = activeCell.getColumn();
-  var imageUrl = 'http://classicsoffroad.com/carcassonne/img/' + getCurrentImageId() + '-' + getCurrentRotate() + '.jpg';
+  var imageUrl = 'https://raw.githubusercontent.com/Colonizator1/carcassone_online/master/img/' + getCurrentImageId() + '-' + getCurrentRotate() + '.jpg';
   if (activeCell.getFormula()) {
     ui.alert('Cell is full. Please check another one!');
   } else {
