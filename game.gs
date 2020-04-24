@@ -1,4 +1,5 @@
-  const SPREADSHEET_URL = 'https://docs.google.com/spreadsheets/d/1OUhZH0BGHMMHjyZmRAKldBa5SJVEXo8lZLPbVkwXczI/edit#gid=0';
+  const SPREADSHEET_URL = 'PASTE_YOUR_SPREADSHEET_URL';
+
   const ss = SpreadsheetApp.openByUrl(SPREADSHEET_URL);
   const ui = SpreadsheetApp.getUi();
   const board = ss.getSheetByName('karkasson');
